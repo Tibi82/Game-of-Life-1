@@ -7,7 +7,7 @@ class GOL:
     
     def __str__(self):
         outstring = ""
-        for rows in gol.board:
+        for rows in self.board:
             for cols in rows:
                 outstring += str(cols) + " "
             outstring += "\n"
